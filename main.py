@@ -1,11 +1,19 @@
 import streamlit as st
 from openai import OpenAI
 
-api_key = st.secrets["OPENAI_API_KEY"]
+st.title("Openai Voice Actor")
+
+api_key = None
+try:
+    api_key = st.secrets["OPENAI_API_KEY"]
+except:
+    pass
+
+if api_key is None:
+    api_key = st.text_input("Set your own openai key", type="password")
 
 client = OpenAI(api_key=api_key)
 
-st.title("Openai Voice Actor")
 
 voice_option = st.selectbox(
     "Voice Options", ("onyx", "alloy", "echo", "fable", "nova", "shimmer")
