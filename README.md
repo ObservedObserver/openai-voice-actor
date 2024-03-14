@@ -1,5 +1,7 @@
 # openai-voice-actor
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://openai-voice-actor.streamlit.app/)
+
 This repository contains a simple yet powerful tool for converting text scripts into voice narrations using OpenAI's GPT model. The application is built with Streamlit, allowing for an easy-to-use interface where users can input their text and generate voice narrations in MP3 format. Whether you're creating content, need assistance with reading, or exploring text-to-speech technologies, this tool is designed to be accessible and straightforward.
 
 ## Features
