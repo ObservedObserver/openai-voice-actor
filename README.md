@@ -10,6 +10,11 @@ This repository contains a simple yet powerful tool for converting text scripts 
 - **Voice Generation**: With the click of a button, the application generates a voice narration of the input text.
 - **MP3 Download**: Users can download the generated narration as an MP3 file.
 
+### TODOs
+- [ ] Generate .srt file for the generated audio
+- [ ] Ask AI to generate audio based on text draft
+- [ ] Add a feature to generate audio based on a video
+
 ## Getting Started
 
 To get started with the Text to Voice Converter, follow these steps:
